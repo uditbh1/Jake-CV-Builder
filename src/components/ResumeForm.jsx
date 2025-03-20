@@ -1,7 +1,7 @@
 import React from "react";
 import Education from "./Education";
 import Experience from "./Experience";
-import Skills from "./skills";
+import Skills from "./Skills";
 import Title from "./Title";
 import Projects from "./Projects";
 // import ResumePreview from './components/ResumePreview'
