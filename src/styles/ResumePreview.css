@@ -1,0 +1,120 @@
+:root {
+  --scale-factor: 1;
+  --scale-round-x: 1px;
+  --scale-round-y: 1px;
+}
+.resume-preview-page {
+  box-sizing: border-box;
+  width: round(
+    down,
+    var(--scale-factor) * 595.276px,
+    var(--scale-round-x, 1px)
+  );
+  height: round(
+    down,
+    var(--scale-factor) * 841.89px,
+    var(--scale-round-y, 1px)
+  );
+  background-color: white;
+  margin: 1rem;
+  inset: 0;
+  line-height: 1;
+  overflow: clip;
+  font-size: calc(var(--scale-factor) * 8.97px);
+  padding-top: calc(var(--scale-factor) * 25px);
+  padding-bottom: calc(var(--scale-factor) * 25px);
+  padding-left: calc(var(--scale-factor) * 42.5px);
+  padding-right: calc(var(--scale-factor) * 42.5px);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.title {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--scale-factor) * 8px);
+}
+.title-name {
+  justify-self: center;
+  align-self: center;
+  font-size: calc(var(--scale-factor) * 25px);
+}
+.title-links {
+  display: flex;
+  gap: calc(var(--scale-factor) * 8px);
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: calc(var(--scale-factor) * 50px);
+  padding-right: calc(var(--scale-factor) * 50px);
+}
+.email,.phone,.linkedin,.twitter,.github,.leetcode {
+  display: flex; /* Align children in a row */
+  align-items: center; /* Vertically align items */
+  gap: calc(var(--scale-factor) * 4px); /* Space between icon and text */
+  font-size: calc(var(--scale-factor) * 9.96px);
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+svg {
+  height: calc(var(--scale-factor) * 9.96px);
+  width: calc(var(--scale-factor) * 9.96px);
+  flex-shrink: 0; /* Prevent SVG from shrinking */
+}
+.education-preview-header,.experience-preview-header,.projects-preview-header,.skills-preview-header {
+  font-size: calc(var(--scale-factor) * 14.35px);
+  font-weight: bold;
+}
+.education,.experience,.projects,.skills{
+  margin-bottom:calc(var(--scale-factor) * 5px);;
+}
+.education-entry-preview ,.experience-entry-preview,.project-entry-preview,.skill-entry-preview{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: calc(var(--scale-factor) * 4px);
+}
+.education-entry-preview *,.experience-entry-preview * {
+  font-size: calc(var(--scale-factor) * 8.97px);
+}
+.education-first,.experience-first,.project-first,.skill-first {
+  display: flex;
+  justify-content: space-between;
+}
+.education-second,.experience-second {
+  display: flex;
+  justify-content: space-between;
+}
+.education-second *,.experience-second *,.project-techstack {
+  font-style: italic;
+}
+.instituition-score,.project-title-techstack {
+  display: flex;
+  gap: calc(var(--scale-factor) * 8px);
+}
+.education-dates,.experience-dates,.project-dates {
+  display: flex;
+  gap: calc(var(--scale-factor) * 8px);
+}
+.institution,.job,.project-title,.category {
+  font-weight: bold;
+}
+.education-entries,.experience-entries,.project-entries,.skill-entries {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--scale-factor) * 8px);
+}
+.experience-responsibilities,.project-features{
+  margin: 0;
+  padding-left: calc(var(--scale-factor) * 16px);
+  gap: calc(var(--scale-factor) * 4px);
+  font-size: calc(var(--scale-factor) * 8.97px);
+}
+.skill-first{
+  justify-content:left;
+  gap: calc(var(--scale-factor) * 4px);
+}

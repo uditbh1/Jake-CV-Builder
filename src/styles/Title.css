@@ -1,0 +1,41 @@
+.title-section > * {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .title-section > * > * {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title-section {
+    padding: 1rem;
+  }
+  
+  .title-form {
+    height: auto; /* Default to auto for expanded state */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Use max-height for smoother transition */
+  }
+  
+  .title-form.collapsed {
+    max-height: 0; /* Collapsed state */
+  }
+  
+  .title-form.expanded {
+    max-height: 400px; /* Expanded state; adjust based on content */
+  }
+  
+  .title-header {
+    cursor: pointer;
+    margin: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .title-buttons button {
+    margin: 5px;
+    font-size: 1rem;
+  }

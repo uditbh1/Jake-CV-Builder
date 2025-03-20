@@ -1,0 +1,55 @@
+.education-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.education-header {
+  cursor: pointer;
+  margin: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.education-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 2px solid white;
+}
+.education-entry > * {
+  display: flex;
+  justify-content: space-between;
+}
+.education-header {
+  font-size: 1.5rem;
+  margin: 24px;
+  justify-self: center;
+}
+.education-buttons {
+  display: flex;
+  padding-left: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.education-buttons button {
+  font-size: 1rem;
+}
+.education-delete-button {
+  font-size: 1rem;
+  max-width: 4rem;
+  align-self: center;
+}
+.education-form {
+  height: auto; /* Default to auto for expanded state */
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out; /* Use max-height for smoother transition */
+}
+
+.education-form.collapsed {
+  max-height: 0; /* Collapsed state */
+}
+
+.education-form.expanded {
+  max-height: 200dvh; /* Expanded state; adjust based on content */
+}

@@ -1,0 +1,11 @@
+.app-container{
+  display: flex;
+  gap: 15rem;
+}
+.form-container{
+  max-height: 93dvh;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  overflow-y: scroll;
+}
