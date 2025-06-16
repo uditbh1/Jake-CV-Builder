@@ -100,9 +100,3 @@ Keep it fresh and funky—match the existing groove!
 This project rocks the **MIT License**. Peek at the [LICENSE](LICENSE) file for the scoop.
 
 ---
-
-### 🌈 Final Flair
-- **No Images**: Skipped the banner and kept it pure Markdown with emoji-driven color.
-- **Single-Page PDF**: Updated to clarify it’s a one-page PDF export, no multi-page support.
-- **Repo URL**: Swap `https://github.com/your-username/jake-cv-builder.git` with your actual GitHub link.
-- **Tone**: Kept it lively and bro-tastic with a splash of fun!
