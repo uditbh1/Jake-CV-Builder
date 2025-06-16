@@ -1,4 +1,3 @@
-Here’s a revised GitHub README for your Jake CV Builder project—colorful and beautiful with emojis and formatting, no images, and reflecting that it doesn’t support multi-page PDFs. It still emphasizes mimicking Jake Ryan’s CV and includes the live demo link.
 
 ---
 
