@@ -106,5 +106,3 @@ This project rocks the **MIT License**. Peek at the [LICENSE](LICENSE) file for 
 - **Single-Page PDF**: Updated to clarify it’s a one-page PDF export, no multi-page support.
 - **Repo URL**: Swap `https://github.com/your-username/jake-cv-builder.git` with your actual GitHub link.
 - **Tone**: Kept it lively and bro-tastic with a splash of fun!
-
-Let me know if you want more dazzle or tweaks, bro! 🎉 This README’s ready to light up your GitHub!
